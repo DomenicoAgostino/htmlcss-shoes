@@ -10,6 +10,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.box {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.scarpe h2 {
+  display: block;
+  text-align: center;
+}
+
+.box .scarpe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 header{
   position: fixed;
   height: 70px;
@@ -20,7 +40,7 @@ header{
 .cerchio {
   height: 25px;
   width: 25px;
-  background: red;
+  background: white;
   border-radius: 50%;
   padding: 0 5px;
   text-align: center;
@@ -43,4 +63,23 @@ nav ul li a {
   line-height: 25px;
   color: black;
 
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+#red {
+  background-color: red;
+  color: yellow;
+}
+
+#green {
+  background-color: green;
+  color: yellow;
+}
+
+#yellow {
+  background-color: yellow;
+  color: green;
 }
